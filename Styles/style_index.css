@@ -15,8 +15,8 @@
 div#tela-inicial{
     position: relative;
     width: 100%;
-    height: 962px;
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(29,28,28,0.85) 46%, rgba(95,94,94,0.6) 67%, rgba(158,157,157,0.37) 81%, rgba(255,255,255,0.37) 100%);
+    height: 943px;
+
 }
 
 div#nav-bar{
@@ -32,7 +32,6 @@ img.nav-bar-logo{
     width: 141px;
     height: 142px;
 }
-
 
 
 video#video_bg{
@@ -53,6 +52,6 @@ video#video_bg{
     pointer-events: none;
 }
 
-a.nav li{
+a.nav{
     color: white;
 }

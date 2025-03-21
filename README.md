@@ -1,4 +1,4 @@
-# Projeto League of Legends Wikipedia 
+# Projeto [League of Legends Wikipedia](https://github.com/Puzerr/University-web-page-project/tree/main/index.html)
 Bem-vindo ao meu respositório! Aqui você poderá acompanhar o meu progresso neste projeto.
 
 A ideia central será **criar uma página web** com o intuito de sintetizar, de forma breve, algumas informações sobre o jogo *League of Legends*.
@@ -14,3 +14,4 @@ Suas críticas construtívas serão mais que bem-vindas comigo, desde já agrade
 :link: Links úteis:
 - [Mozilla HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [Atividades Projeo de Interface IESB](https://github.com/Puzerr/University-web-page-project/tree/main/Estudos)
+- [Link para o site](https://github.com/Puzerr/University-web-page-project/tree/main/index.html)

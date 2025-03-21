@@ -16,37 +16,78 @@ div#tela-inicial{
     position: relative;
     width: 100%;
     height: 943px;
-
 }
 
-div#nav-bar{
+#nav-bar{
     z-index: 1;
     position: absolute;
-    width: 1920px;
-    height: 214px;
+    width: 100%;
+    height: 187px;
 }
 
 img.nav-bar-logo{
     margin-left: 441px;
-    margin-top: 36px;
+    margin-top: 22px;
     width: 141px;
     height: 142px;
 }
 
+div#links_nav{
+    margin-left: 627px;
+    margin-top: -89px;
+    position: absolute;
+    justify-content: space-between;
+}
+
+div#links_nav a{
+    margin-right: 41px;
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+div#links_nav a:link{
+    color: #ffffff;
+}
+div#links_nav a:visited{
+    color: #ffffff;
+}
+div#links_nav a:hover{
+    color: #491B98;
+}
+div#links_nav a:active{
+    color: #918d97;
+}
+
+input[type=text]{
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
+    background-image: url("/Images/lupa.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 12px 20px 12px 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
 
 video#video_bg{
     z-index: 0;
-    position: absolute;
-    /*margin-top: -132px;*/
+    position: relative;
+    left:-1%;
+    margin-top: -132px;
     margin-top: -50px; 
     pointer-events: none;
+    overflow: hidden;
 }
 
 #degrade {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 2000px;
     height: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 10%, rgba(29, 28, 28, 0.85) 46%, rgba(95, 94, 94, 0.6) 67%, rgba(158, 157, 157, 0.37) 81%, rgba(255, 255, 255, 0.37) 100%);
     pointer-events: none;
@@ -54,4 +95,36 @@ video#video_bg{
 
 a.nav{
     color: white;
+}
+
+#introducao{
+    color: white;
+    text-align:justify;
+    font-size: 36px;
+    width: 1000px;
+    margin-left: 459px;
+    margin-top: 118px
+}
+
+#monte_targon{
+    position: relative;
+    background-image: url(src="/Images/monte_targon.jpg");
+    width: 1920px;
+    height: 34px;
+}
+
+img#imagem_targon{
+    z-index: 0;
+    border: solid yellow 2px;
+    height: 244px;
+}
+
+#texto_targon{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 48px;
+    margin-left: 723px;
+    color: #AFACAC;
 }

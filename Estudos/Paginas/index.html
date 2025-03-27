@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caitlyn</title>
+    <link rel="stylesheet" href="../Estilos/style.css">
 </head>
-<body style="background-color: rgb(53, 136, 204); background-image: linear-gradient(to bottom right, rgba(190, 159, 18, 0.904),rgb(175, 24, 143), rgba(41, 43, 161, 0.849))">
+<body id="index">
     <div> <!--Título-->
         <h1 align="center">Universo de League of Legends</h1>
         <h2 align="center"><b>Caitlyn</b> Kiramman</h2 align="center"><hr>
     </div>
-    <div align="center">
-        <a href="./index.html" target="_self">Caitlyn</a>
-        <a href="./ekko.html" target="_self">Ekko</a>
-        <a href="./vi.html" target="_self">Vi</a>
-        <a href="./jinx.html" target="_self">Jinx</a>
-        <a href="./formulario.html" target="_self">Formulário</a>
+    <div id="link-topo">
+        <p>    
+            <a href="./index.html" target="_self">Caitlyn</a>
+            <a href="./ekko.html" target="_self">Ekko</a>
+            <a href="./vi.html" target="_self">Vi</a>
+            <a href="./jinx.html" target="_self">Jinx</a>
+            <a href="./formulario.html" target="_self">Formulário</a>
+        </p>
     </div>
     <div> <!--Parágrafos-->
         <p> <b>Piltover</b> é uma cidade próspera e progressiva cujo poder e influência estão em crescimento. Ela é o centro cultural de <i>Valoran</i>, onde a arte, o artesanato, o comércio e a inovação andam de mãos dadas. Seu poder não vem de soberania militar, mas através dos motores do comércio e do pensamento de vanguarda. Situada no despenhadeiro acima do distrito de <b>Zaun</b> e de frente para o oceano, frotas de navios passam por seus portões do mar gigantescos, trazendo iguarias do mundo todo. A riqueza que isso gera deu lugar a um aumento sem precedentes no crescimento da cidade. <b>Piltover</b> se reinventou - e continua se reinventando - como uma cidade onde fortunas podem ser feitas e sonhos podem ser realizados. Os crescentes clãs de mercadores investiram no desenvolvimento dos empreendimentos mais incríveis: grandes loucuras artísticas, pesquisa hextec esotérica e monumentos arquitetônicos em seu poder. Como cada vez mais inventores estão se envolvendo com a história de hextec, Piltover se tornou um ímã para os artesãos mais habilidosos do mundo.</p><br> <!--Introdução à cidade de Piltover-->
@@ -24,7 +27,7 @@
         <p>Em vez disso, seu foco se voltou totalmente a desvendar a teia de intrigas em torno da misteriosa letra "C". Usando suas habilidades de caça, se estabeleceu como investigadora particular e logo construiu a reputação de alguém que poderia encontrar pessoas perdidas e recuperar bens roubados. Em reconhecimento ao seu sucesso independente, os pais de <b>Caitlyn</b> construíram para ela um extraordinário rifle hextec, mais preciso do que um mosquete. A arma aceitava vários projéteis especiais e era facilmente adaptável durante o uso.   Após um caso particularmente traumático envolvendo o desaparecimento de um dispositivo hextec e uma série de sequestros de crianças, <b>Caitlyn</b> foi convocada pelos Vigias.Ela havia sido recomendada por um deles, que também se dedicava a casos estranhos, e a luta contra um grupo de quiméricos desonestos a serviço de um pesquisador lunático e enlouquecido por suas próprias formulações fez com que ela fosse formalmente convidada para o posto de xerife. A princípio, <b>Caitlyn</b> recusou, mas depois percebeu que o poder e os recursos dos Vigias poderiam ajudá-la a descobrir a verdadeira identidade de "C".</p><br> <!--Caitlyn recebe ajuda da tecnologia hextech para avançar nas investigações-->
         <p>A partir de então, <b>Caitlyn</b> tornou-se uma oficial altamente respeitada entre os Vigias, sempre tentando fazer da Cidade do Progresso um lugar melhor e mais seguro. Recentemente, ela passou a trabalhar em parceria com uma nova recruta de <b>Zaun</b>, a impetuosa e imprudente <b>Vi</b>. O fato de uma dupla tão improvável funcionar tão bem é motivo de muitas conversas e fofocas entre os companheiros Vigias, e também entre aqueles que as duas colocam atrás das grades.O que <b>Caitlyn</b> não sabe, entretanto, é que <b>"C"</b> também a observa de perto... especialmente agora que suas investigações trazem-na cada vez mais perto da verdade.</p> <!--Caitlyn encontra sua colega, e a investigação continua--> <hr>
     </div>
-    <div style="background-color: rgb(39, 42, 44); color: white; border-radius: 25px; width: 1000px; border-color: white; border: 5px solid white;"> <!--Pedaço em formato de código (pre)-->
+    <div id="codigo"> <!--Pedaço em formato de código (pre)-->
         <h3><blockquote>Teste lógico habilidade suprema - Caitlyn Kiramman</blockquote></h3>
         <pre>
             <span style="color: white;">damage1</span> = <span style="color: orange;">300</span> + <span style="color: orangered;">100% Attack damage</span>
@@ -32,7 +35,7 @@
             <span style="color: white;">damage3</span> = <span style="color: orange;">700</span> + <span style="color: orangered;">100% Attack damage</span>
             <span style="color: rgb(247, 71, 100);">def</span> <span style="color: yellow;">R</span>(<span style="color: greenyellow;">trigger_fire</span>):
             <span style="color: rgb(247, 71, 100);">if</span> trigger_fire:
-                <span style="color: ;">projectile_fire</span>
+                <span style="color: rgb(247, 71, 100);">projectile_fire</span>
                 <span style="color: rgb(247, 71, 100);">if</span> </span> <span style="color: yellow;">projectile_hit</span>:
                     <span style="color: rgb(247, 71, 100);">return</span> <span style="color: aqua;">f</span> <span style="color: rgb(81, 165, 42);">"Você deu {damage in range (1,3)} de dano"</span>
                     <span style="color: rgb(247, 71, 100);">else</span>:
@@ -42,28 +45,28 @@
             <span style="color: rgb(81, 165, 42);"># Este seria um pseudocódigo com o intuito de simular o pressionar da tecla R com o campeão Caitlyn no jogo League of Legend.</span>>
         </pre>
     </div><hr>
-    <div> <!--Listas-->
+    <div id="listas" > <!--Listas-->
         <h3>Regiões e seus campeões</h3>
         <ul>
-            <p>Demacia</p>
+            <li class="titulo">Demacia</li>
             <li>Lux</li>
             <li>Garen</li>
             <li>Kayle</li>
             <li>Morgana</li>
             <li>Poppy</li>
             <li>Vayne</li>
-        </ul>
+        </ul><br>
         <ul>
-            <p>Noxus</p>
+            <li class="titulo">Noxus</li>
             <li>Darius</li>
             <li>Draven</li>
             <li>Talon</li>
             <li>Katarina</li>
             <li>Samira</li>
             <li>Elise</li>
-        </ul>
+        </ul><br>
         <ul>
-            <p>Monte Targon</p>
+            <li class="titulo">Monte Targon</li>
             <li>Taric</li>
             <li>Soraka</li>
             <li>Zoe</li>

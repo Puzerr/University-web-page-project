@@ -13,4 +13,4 @@ Suas críticas construtívas serão mais que bem-vindas comigo, desde já agrade
 
 :link: Links úteis:
 - [Mozilla HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [Atividades Projeo de Interface IESB](https://github.com/Puzerr/University-web-page-project/tree/main/Estudos)
+- [Atividades Projeo de Interface IESB]([https://github.com/Puzerr/University-web-page-project/tree/atividades-projeto-interface/Estudos))

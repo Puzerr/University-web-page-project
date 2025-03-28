@@ -78,6 +78,7 @@ fieldset#questionario_sr{
 
 p#questionario_descricao{
     padding: 10px;
+    text-align: justify;
 }
 
 label.fonte_tamanho{
@@ -99,4 +100,84 @@ input.input_user_name_email{
 
 input.indice_satisfacao p{
     font-size: 10px;
+}
+
+textarea#descricao_ranqueada{
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+    field-sizing: content;
+    resize: none;
+    width: 100%;
+    max-width: 1050px;
+    min-height: 180px;
+    max-height: 180px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.funcao_select{
+    width: 200px;
+}
+
+select.arredondado{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+textarea#descricao_taunt{
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+    field-sizing: content;
+    resize: none;
+    width: 100%;
+    max-width: 1050px;
+    min-height: 180px;
+    max-height: 180px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#descricao_personagem{
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+    field-sizing: content;
+    resize: none;
+    width: 100%;
+    max-width: 1050px;
+    min-height: 180px;
+    max-height: 180px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+textarea.habilidade_descrever{
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 5px;
+    field-sizing: content;
+    resize: none;
+    width: 100%;
+    max-width: 1050px;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
